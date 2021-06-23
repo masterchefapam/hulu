@@ -26,9 +26,7 @@ const Thumbnail = forwardRef(({result},ref)=> {
                     {result.release_date || result.first_air_date} *{" "}
                     <ThumbUpIcon className="h-5 mx-2"/>{result.vote_count}
                 </p>
-                <div>
-                  {`${BASE_URL}movie/${result.movie_id}/videos`}
-                </div>
+               
             </div>
         </div>
     )
