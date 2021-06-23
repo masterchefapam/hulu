@@ -10,7 +10,7 @@ export default function Home({results}) {
   
   return (
     <div >
-      <Head><title>Create Next App</title></Head>
+      <Head><title>hulu clone</title></Head>
       
       <Header/>
       <Nav/>
